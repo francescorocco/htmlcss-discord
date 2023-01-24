@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole di debug */
+
+.debug .header-top{
+    background-color: #ACD7E5;
+}
+
+.debug .header-top .container div{
+    background-color: #D9A426;
+    border: 2px dotted black;
+}
+
+.debug .header-bottom{
+    background-color: #060489;
+}
+
+.debug .header-main-text{
+    background-color: #EE82EC;
+    height: 200px;
+    width: 500px;
+    border: 2px dotted black;
+}
+
+.debug .section-1{
+    background-color: #cccccc;
+}
+
+.debug .section-2{
+    background-color: #5a5a5a;
+}
+
+.debug .section-img{
+    background-color: #2390FD;
+    border: 2px dotted black;
+}
+
+.debug .section-text{
+    background-color: #FFBFCA;
+    border: 2px dotted black;
+}
+
+.debug .closing-text{
+    height: 400px;
+    width: 100%;
+    background-color: #1F8A25;
+    border: 2px dotted black;
+}
+
+.debug .big-text{
+    height: 300px;
+    background-color: #EF7F7F;
+    border: 2px dotted black;
+}
+
+.debug .small-text{
+    background-color: #1FB1A9;
+    height: 300px;
+    border: 2px dotted white;
+}
+
+.debug .logo-text{
+    background-color:  #EF7F7F;
+    border: 2px dotted black;
+}
+
+.debug .button-text{
+    background-color:  #EF7F7F;
+    border: 2px dotted black;
+
+}
+
+.debug .footer-bottom .container{
+    background-color: #7EFED4;
+}
+
+/* regole di css */
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+.header-top .container-flex{
+    justify-content: space-between;
+}
+
+.header-top .container {
+    padding: 10px;
+}
+
+.header-logo{
+    width: 20%;
+}
+
+.header-nav{
+    width: 60%;
+    text-align: center;
+}
+
+.header-login{
+    width: 20%;
+    text-align: end;
+}
+
+.header-bottom .container-flex{
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.section-1, .section-2{
+    padding: 20px 0px;
+}
+
+
+.section-img{
+    width: 60%;
+    height: 300px;
+}
+
+.section-text{
+    width: 40%;
+    height: 300px;
+}
+
+footer{
+    background-color: #222629;
+    padding: 10px
+}
+
+.big-text{
+    width: 30%;
+}
+
+.small-text{
+    width: 20%;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+    border: none;
+}
+
+.footer-top hr{
+    margin: 20px;
+}
+
+.footer-bottom .container-flex{
+    justify-content: space-between;
+}
