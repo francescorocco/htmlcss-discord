@@ -6,17 +6,6 @@
 
 /* regole di debug */
 
-.debug 
-/* 
-.debug .header-top .container div{
-    background-color: #D9A426;
-    border: 2px dotted black;
-} */
-
-.debug .jumbotron{
-    background-color: #060489;
-}
-
 .debug .header-main-text{
     background-color: #EE82EC;
     height: 200px;
@@ -138,12 +127,17 @@ body{
     color: black;
 }
 
-
-.jumbotron .container-flex{
-    justify-content: center;
-    align-items: center;
+.jumbotron{
     padding: 25px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.header-main-text{
+    margin: 0px auto;
+}
+
 
 .section-1, .section-2{
     padding: 20px 0px;
