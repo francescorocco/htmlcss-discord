@@ -13,23 +13,15 @@
     border: 2px dotted black;
 }
 
-.debug .section-1{
-    background-color: #cccccc;
-}
+.debug 
 
 .debug .section-2{
     background-color: #5a5a5a;
 }
 
-.debug .section-img{
-    background-color: #2390FD;
-    border: 2px dotted black;
-}
 
-.debug .section-text{
-    background-color: #FFBFCA;
-    border: 2px dotted black;
-}
+
+
 
 .debug .closing-text{
     height: 400px;
@@ -174,19 +166,34 @@ body{
 }
 
 
+.section-1{
+    background-color: white;
+}
+
 .section-1, .section-2{
     padding: 20px 0px;
 }
 
+section .container-flex{
+    align-items: center;
+}
 
 .section-img{
     width: 60%;
-    height: 300px;
 }
 
 .section-text{
     width: 40%;
-    height: 300px;
+    text-align: start;
+}
+
+.section-text h1{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.section-text p{
+    font-size: 20px;
 }
 
 footer{
