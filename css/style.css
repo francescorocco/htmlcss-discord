@@ -127,11 +127,46 @@ body{
     color: black;
 }
 
+.black-bt{
+    background-color: black;
+    color: white;
+}
+
 .jumbotron{
     padding: 25px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
+}
+
+.jumbotron-text h1{
+    padding: 0px 0px 20px;
+}
+
+.jumbotron-text{
+    text-align: center;
+    width: 617px;
+    margin: auto;
+    color: white;
+}
+
+.jumbotron .container-flex{
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.fa-solid{
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.jumbo-bt{
+    margin-right: 15px;
+}
+
+.jumbotron .button{
+    font-size: 16px;
 }
 
 .header-main-text{
