@@ -6,16 +6,14 @@
 
 /* regole di debug */
 
-.debug .header-top{
-    background-color: #ACD7E5;
-}
-
+.debug 
+/* 
 .debug .header-top .container div{
     background-color: #D9A426;
     border: 2px dotted black;
-}
+} */
 
-.debug .header-bottom{
+.debug .jumbotron{
     background-color: #060489;
 }
 
@@ -79,10 +77,27 @@
 }
 
 /* regole di css */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 .container{
     max-width: 1170px;
     margin: auto;
+}
+
+.header-top{
+    background-color: #295FE7;
+}
+
+.menu{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white; 
 }
 
 .container-flex{
@@ -94,24 +109,37 @@
 }
 
 .header-top .container {
-    padding: 10px;
+    padding: 20px 0px;
 }
 
 .header-logo{
-    width: 20%;
+    width: 30%;
 }
 
-.header-nav{
-    width: 60%;
-    text-align: center;
+.header-top nav{
+    width: 40%;
 }
 
-.header-login{
-    width: 20%;
+.header-top .button{
+    width: 30%;
     text-align: end;
 }
 
-.header-bottom .container-flex{
+.button {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.white-bt{
+    background-color: white;
+    color: black;
+}
+
+
+.jumbotron .container-flex{
     justify-content: center;
     align-items: center;
     padding: 25px;
