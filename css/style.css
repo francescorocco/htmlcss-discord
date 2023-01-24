@@ -176,6 +176,7 @@ section .container-flex{
 
 .section-text p{
     font-size: 20px;
+    line-height: 30px;
 }
 
 .section-2{
