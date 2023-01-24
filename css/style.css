@@ -6,23 +6,6 @@
 
 /* regole di debug */
 
-.debug .header-main-text{
-    background-color: #EE82EC;
-    height: 200px;
-    width: 500px;
-    border: 2px dotted black;
-}
-
-.debug 
-
-.debug .section-2{
-    background-color: #5a5a5a;
-}
-
-
-
-
-
 .debug .closing-text{
     height: 400px;
     width: 100%;
@@ -125,7 +108,7 @@ body{
 }
 
 .jumbotron{
-    padding: 25px;
+    padding: 50px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,13 +148,12 @@ body{
     margin: 0px auto;
 }
 
-
 .section-1{
     background-color: white;
 }
 
 .section-1, .section-2{
-    padding: 20px 0px;
+    padding: 100px 0px;
 }
 
 section .container-flex{
@@ -194,6 +176,10 @@ section .container-flex{
 
 .section-text p{
     font-size: 20px;
+}
+
+.section-2{
+    background-color: #F5F5F5;
 }
 
 footer{
