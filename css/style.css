@@ -4,32 +4,7 @@
     box-sizing: border-box;
 }
 
-/* regole di debug */
 
-
-
-.debug .small-text{
-    background-color: #1FB1A9;
-    height: 300px;
-    border: 2px dotted white;
-}
-
-.debug .logo-text{
-    background-color:  #EF7F7F;
-    border: 2px dotted black;
-}
-
-.debug .button-text{
-    background-color:  #EF7F7F;
-    border: 2px dotted black;
-
-}
-
-.debug .footer-bottom .container{
-    background-color: #7EFED4;
-}
-
-/* regole di css */
 body{
     font-family: 'Arimo', sans-serif;
 }
@@ -199,8 +174,6 @@ section .container-flex{
     font-size: 30px;
 }
 
-
-
 footer{
     background-color: #222629;
     padding: 40px
@@ -229,14 +202,25 @@ footer{
 }
 
 .icon{
-    background-color: white;
-    color: #222629;
+    background-color:transparent;
+    color: white;
     font-size: 25px;
     margin: 20px 8px;
 }
 
 .small-text{
     width: 20%;
+}
+
+.small-text h3{
+    color:#7289DA;
+}
+
+.small-text a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
 }
 
 hr{
@@ -246,9 +230,13 @@ hr{
 }
 
 .footer-top hr{
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .footer-bottom .container-flex{
     justify-content: space-between;
+}
+
+.footer-bottom .button{
+    font-size: 14px;
 }
