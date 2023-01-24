@@ -6,18 +6,7 @@
 
 /* regole di debug */
 
-.debug .closing-text{
-    height: 400px;
-    width: 100%;
-    background-color: #1F8A25;
-    border: 2px dotted black;
-}
 
-.debug .big-text{
-    height: 300px;
-    background-color: #EF7F7F;
-    border: 2px dotted black;
-}
 
 .debug .small-text{
     background-color: #1FB1A9;
@@ -42,7 +31,7 @@
 
 /* regole di css */
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Arimo', sans-serif;
 }
 
 .container{
@@ -92,7 +81,7 @@ body{
 .button {
     text-decoration: none;
     border-radius: 20px;
-    padding: 8px 10px;
+    padding: 12px 14px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -107,8 +96,14 @@ body{
     color: white;
 }
 
+.blue-bt{
+    background-color: #7289DA;
+    color: white;
+    font-size: 20px;
+}
+
 .jumbotron{
-    padding: 50px;
+    padding: 130px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,14 +111,21 @@ body{
 }
 
 .jumbotron-text h1{
+    font-size: 50px;
     padding: 0px 0px 20px;
+}
+
+.jumbotron-text p {
+    font-size: 21px;
+    line-height: 32px;
 }
 
 .jumbotron-text{
     text-align: center;
-    width: 617px;
+    width: 825px;
     margin: auto;
     color: white;
+    padding-bottom: 10px;
 }
 
 .jumbotron .container-flex{
@@ -131,17 +133,18 @@ body{
     justify-content: center;
 }
 
-.fa-solid{
+.big-row{
     padding-right: 5px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .jumbo-bt{
     margin-right: 15px;
 }
 
-.jumbotron .button{
-    font-size: 16px;
+.jumbotron .button {
+    padding: 10px 14px;
+    font-size: 22px;
 }
 
 .header-main-text{
@@ -152,7 +155,7 @@ body{
     background-color: white;
 }
 
-.section-1, .section-2{
+.section-1, .section-2, .section-big{
     padding: 100px 0px;
 }
 
@@ -169,27 +172,67 @@ section .container-flex{
     text-align: start;
 }
 
-.section-text h1{
+.section-text h1,.section-big h1{
     font-size: 48px;
     padding-bottom: 30px;
 }
 
-.section-text p{
+.section-text p,.section-big p{
     font-size: 20px;
     line-height: 30px;
 }
 
-.section-2{
+.section-2,.section-big{
     background-color: #F5F5F5;
 }
 
+.section-big{
+    text-align: center;
+}
+
+.section-big img{
+    width: 1170px;
+}
+
+.section-big h2{
+    padding: 60px 0px;
+    font-size: 30px;
+}
+
+
+
 footer{
     background-color: #222629;
-    padding: 10px
+    padding: 40px
 }
 
 .big-text{
     width: 30%;
+}
+
+.big-text img {
+    height: 18px;
+    margin: -4px 10px;
+}
+
+.nation-name{
+    color: white;
+}
+
+.small-row{
+    padding-left: 5px;
+}
+
+.big-text h1{
+    color: #7289DA;
+    padding-bottom: 20px;
+}
+
+.icon{
+    background-color: white;
+    color: #222629;
+    font-size: 25px;
+    margin: 20px 8px;
 }
 
 .small-text{
